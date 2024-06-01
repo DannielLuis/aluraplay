@@ -53,6 +53,13 @@
     gap: 15px;
 }
 
+/* VIDEO */
+
+.videos__item{
+    height: 303px;
+    width: 280px;
+}
+
 /* RODAPE */
 
 .rodape__container{
@@ -96,6 +103,9 @@
 
 /*@media(min-width: 1440px){*/
 @media(min-width: 1000px){
+
+     /* MENU */
+
     .menu__container{
         width: 239px;
         overflow: scroll;
@@ -123,7 +133,7 @@
         flex-direction: column-reverse;
     }
 
-    /* .jogos{
+    .jogos{
         order: 3;
     }
 
@@ -137,6 +147,6 @@
 
     .maispagina{
         order: 4;
-    } */
+    }
 
 }
